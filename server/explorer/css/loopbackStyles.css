@@ -1,0 +1,9 @@
+.swagger-ui-wrap #logo{
+  display: none;
+}
+.swagger-ui-wrap:after { 
+  content: "API Explorer Using Node JS, Express and Swagger";
+  font-size: 20px;
+  font-weight: 400;
+  color: #FFF;
+}

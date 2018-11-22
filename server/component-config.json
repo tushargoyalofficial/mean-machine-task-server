@@ -1,0 +1,17 @@
+{
+  "loopback-component-explorer": {
+    "mountPath": "/explorer",
+    "generateOperationScopedModels": true,
+    "uiDirs": "server/explorer",
+    "apiInfo": {
+      "title": "Mean Machine Task API Server",
+      "description": "All APIs definations explorer."
+    }
+  },
+  "loopback-component-model-diagram": {
+    "mountPath": "/modeldiagram"
+  },
+  "loopback-component-visualizer": {
+    "mountPath": "/visualize"
+  }
+}
