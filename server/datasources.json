@@ -13,5 +13,13 @@
     "user": "",
     "connector": "mongodb",
     "useNewUrlParser": true
+  },
+  "Upload": {
+    "name": "Upload",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "mean-machine-server/uploads",
+    "nameConflict": "makeUnique",
+    "maxFileSize": "5000485760"
   }
 }

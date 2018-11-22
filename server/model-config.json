@@ -43,5 +43,9 @@
   "Product": {
     "dataSource": "mongodb",
     "public": true
+  },
+  "Upload": {
+    "dataSource": "Upload",
+    "public": true
   }
 }
