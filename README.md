@@ -18,7 +18,9 @@ Browse your REST API at http://localhost:3000/explorer
 
 Above host and port will be come from config.json file which you will configure according to your needs
 
-Current default settings:
+Current default settings for database:
 mongodb://localhost:27017/db_meanmachine
+
+Current default settings for server:
 "host": "0.0.0.0",
 "port": 3000,
