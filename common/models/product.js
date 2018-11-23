@@ -1,5 +1,5 @@
 'use strict';
-var stripe = require('stripe')('sk_test_B0bVzDvGYbPc0iCKIkhpsnbz');
+var stripe = require('stripe')('sk_test_secret_key_here');
 
 module.exports = function (Product) {
 
