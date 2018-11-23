@@ -21,9 +21,13 @@ Above host and port will be come from config.json file which you will configure 
 Current default settings for database:
 mongodb://localhost:27017/db_meanmachine
 
+## Further help
+
 Current default settings for server:
 "host": "0.0.0.0",
 "port": 3000,
+
+## Stripe key configs
 
 For using stripe secret key, go to /common/models/product.js, line 2, add your secret key
 For using stripe public key, go to /mean-machine-task-ui/src/index.html, line 16, add your public key there
